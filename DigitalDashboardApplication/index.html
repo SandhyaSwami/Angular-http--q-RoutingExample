@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Digital Dashboard 3.0</title>
+
+    <meta name="description" content="Digital Dashboard 3.0">
+    <meta name="author" content="Digital Dashboard 3.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+
+    <link href="lib/Bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="lib/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="view/style/css/style_light.css" rel="stylesheet">
+
+</head>
+<body ng-app="dDash" ng-controller="dDashController">
+<!--{{test}}-->
+<div ng-view></div>
+
+
+<script src="lib/jQuery/js/jquery.min.js"></script>
+<script src="lib/Bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/Angular/angular.min.js"></script>
+<!--<script src="lib/Angular/angular-resource.min.js"></script>-->
+<script src="lib/Angular/angular-route.min.js"></script>
+
+<script src="init.js"></script>
+<script>
+    document.write("<script src='js/Controller/dDashController.js?v=" + Date.now() + "'><\/script>")
+</script>
+
+<script src="js/services/portalService.js"></script>
+
+</body>
+</html>

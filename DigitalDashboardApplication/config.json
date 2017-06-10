@@ -1,0 +1,88 @@
+{
+	"errorCode": 0,
+	"errorMessage": "",
+	"result": {
+		"config1": [{
+				"CLIENT_KEY": "26"
+			}, {
+				"CLIENT_NAME": "UnileverAV"
+			}, {
+				"CLIENT_DISPLAY_NAME": "UnileverAV"
+			}, {
+				"H0_LABEL": "Global"
+			}, {
+				"H1_LABEL": "Cluster"
+			}, {
+				"H2_LABEL": "MCO"
+			}, {
+				"H3_LABEL": "Country"
+			}, {
+				"H4_LABEL": "Process"
+			}, {
+				"DRILLDOWNMAXDEPTH": "3"
+			}, {
+				"BREAKDOWNLEVEL": "4"
+			}, {
+				"PERIODDEPTH": "24"
+			}, {
+				"DESKTOPAPIVERSION": "3.0"
+			}, {
+				"TABLETAPIVERSION": "2.0"
+			}, {
+				"ADVISORAPIVERSION": "2.0"
+			}, {
+				"AGGREGATIONTYPE": "WEIGHTED"
+			}, {
+				"PREDICTIVEON": "1"
+			}, {
+				"OFFLINEON": "1"
+			}, {
+				"APPROVALREQUIRED": "0"
+			}, {
+				"ADVISORON": "0"
+			}, {
+				"AVAILABLEGRAPH": "1,2,4"
+			}, {
+				"DEFAULTINGGRAPH": "1"
+			}, {
+				"DEFAULTVIEWER": "1"
+			}, {
+				"POLLINGON": "0"
+			}, {
+				"WEIGHTEDAVERAGEON": "1"
+			}, {
+				"RAWDATAON": "0"
+			}, {
+				"RAWDATADIMENSION": "0"
+			}, {
+				"MIN_LABEL": "Min"
+			}, {
+				"TARGET_LABEL": "Target"
+			}, {
+				"RESULT_LABEL": "Result"
+			}
+		],
+		"config2": [{
+				"TEST": ""
+			}
+		],
+		"metricType": [{
+				"metricType": "KPI"
+			}, {
+				"metricType": "GPI"
+			}, {
+				"metricType": "E2E"
+			}, {
+				"metricType": "CPI"
+			}
+		],
+		"userkey": 20981,
+		"token": "Td9jvC77jEWcpLMdkscXlGbSNCSjQlFU",
+		"loggeduser": null,
+		"roleData": [{
+				"roleID": "0",
+				"roleName": "VIEWER"
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+.hero-panel {
+  background-color: #001934;
+  color: white;
+  height: 30px;
+  padding-top: 5px; }
+
+.search-metrics {
+  float: right; }
+
+.search-icon {
+  position: relative;
+  right: 25px; }
+
+.doughnut {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  height: 300px; }
+
+.chartHeader {
+  border-bottom: 1px solid grey;
+  padding: 5px 15px; }
+
+.marginTop15 {
+  margin-top: 15px; }
+
+.barChart {
+  margin: 20px 1px; }
+
+.padding0 {
+  padding: 0px; }
